@@ -91,7 +91,7 @@ get_header();
                             <h3>Tag Water</h3>
                             
                             <div class="project-tags">
-                            <h4>In this project I've worked with:</h4>
+                            <h4>In this project I've contributed and worked with:</h4>
                                 <span class="tag project-management">Project Management</span>
                                 <span class="tag frontend">Frontend Dev</span>
                                 <span class="tag ux-ui">UX/UI Design</span>
@@ -163,6 +163,7 @@ get_header();
                     </div>
                 </div>
             </div>
+            <div class="icon-scroll"></div>
     </section>
 
     <section id="showcase">
