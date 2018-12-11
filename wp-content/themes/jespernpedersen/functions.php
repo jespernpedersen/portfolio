@@ -29,18 +29,18 @@ add_theme_support( 'html5', array(
 /** 
  * Include primary navigation menu
  */
-function untheme_nav_init() {
+function jnp_nav_init() {
 	register_nav_menus( array(
 		'menu-1' => 'Primary Menu',
 	) );
 }
-add_action( 'init', 'untheme_nav_init' );
+add_action( 'init', 'jnp_nav_init' );
 
 /**
  * Register widget area.
  *
  */
-function untheme_widgets_init() {
+function jnp_widgets_init() {
 	register_sidebar( array(
 		'name'          => 'Sidebar',
 		'id'            => 'sidebar-1',
@@ -51,24 +51,25 @@ function untheme_widgets_init() {
 		'after_title'   => '</h2>',
 	) );
 }
-add_action( 'widgets_init', 'untheme_widgets_init' );
+add_action( 'widgets_init', 'jnp_widgets_init' );
 
 /**
  * Enqueue scripts and styles.
  */
-function untheme_scripts() {
-	wp_enqueue_style( 'untheme-style', get_stylesheet_uri() );
-	wp_enqueue_style( 'untheme-custom-style', get_template_directory_uri() . '/assets/css/style.css' );
-	wp_enqueue_script( 'untheme-scripts', get_template_directory_uri() . '/assets/js/scripts.js' );
+function jnp_scripts() {
+	wp_enqueue_style( 'jnp-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'jnp-custom-style', get_template_directory_uri() . '/assets/css/style.css' );
+	wp_enqueue_script( 'jnp-scripts', get_template_directory_uri() . '/assets/js/scripts.js' );
 }
-add_action( 'wp_enqueue_scripts', 'untheme_scripts' );
+add_action( 'wp_enqueue_scripts', 'jnp_scripts' );
 
-function untheme_create_post_custom_post() {
+function jnp_create_post_custom_post() {
 	register_post_type('custom_post', 
 		array(
 		'labels' => array(
-			'name' => __('Custom Post', 'untheme'),
+			'name' => __('Portfolio', 'jnp'),
 		),
+		'menu_icon'    => 'dashicons-schedule',
 		'public'       => true,
 		'hierarchical' => true,
 		'supports'     => array(
@@ -84,4 +85,4 @@ function untheme_create_post_custom_post() {
 		) 
 	));
 }
-add_action('init', 'untheme_create_post_custom_post'); // Add our work type
+add_action('init', 'jnp_create_post_custom_post'); // Add our work type
