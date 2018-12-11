@@ -11,127 +11,154 @@ get_header();
 <main role="main">
 
     <section id="portfolio-slider">
-        <article id="profile">
-            <h1>Hi! My name is Jesper</h1>
-            <p>I aspire to realize my ideas through technology. <br />This is some of the work I've contributed to!</p>
-            <img src="/portfolio-v3/wp-content/uploads/2018/12/13718519_10205004085860709_9041351760399082318_n.jpg" alt="A picture of myself" />
+        <article id="profile" itemscope itemtype="http://schema.org/Person">
+            <h1 itemprop="name">Hi! My name is Jesper</h1>
+            <p itemprop="jobTitle">I aspire to realize my ideas through technology.</p>
+            <img src="/portfolio-v3/wp-content/uploads/2018/12/13718519_10205004085860709_9041351760399082318_n.jpg" id="profile-image" itemprop="image" alt="A picture of myself" />
+            
+
+                <div id="social-media">
+                    <div class="social-media-item">
+                        <a class="social-icon-linkedin" href="https://www.linkedin.com/in/jespernpedersen/" target="_blank" title="Se min Linkedin for flere informationer!"><img src="/portfolio-v3/wp-content/themes/jespernpedersen/assets/images/linkedin.svg" /></a>
+                    </div>
+                </div>
+            <h4 class="country" itemprop="nationality">Denmark, Europe</h4>
         </article>
         
         <div id="portfolio-slider" class="card-carousel">
                 <div class="my-card" id="first-item">
                     <div class="inner-item">
                         <div class="left">
-
+                            <img src="/portfolio-v3/wp-content/uploads/2018/12/img-magicmoney2.png" alt="iPad" />
                         </div>
                         <div class="center">
-                            <img src="https://placehold.it/400x300/f06/fff/?text=1" alt="">
+                            <h3>Tag Water</h3>
+                            <img src="/portfolio-v3/wp-content/uploads/2018/12/Tag-Water-Desktop.png" alt="Desktop">
                         </div>
                         <div class="right">
-
+                            <img src="/portfolio-v3/wp-content/uploads/2018/12/empty-phone-squashed.png" alt="iPhone" />
                         </div>
                     </div>
                 </div>
                 <div class="my-card">
                     <div class="inner-item">
                         <div class="left">
-
+                            <img src="/portfolio-v3/wp-content/uploads/2018/12/img-magicmoney2.png" alt="iPad" />
                         </div>
                         <div class="center">
-                            <img src="https://placehold.it/400x300/f06/fff/?text=1" alt="">
+                            <h3>Tag Water</h3>
+                            <img src="/portfolio-v3/wp-content/uploads/2018/12/Tag-Water-Desktop.png" alt="Desktop">
                         </div>
                         <div class="right">
-
+                            <img src="/portfolio-v3/wp-content/uploads/2018/12/empty-phone-squashed.png" alt="iPhone" />
                         </div>
                     </div>
                 </div>
                 <div class="my-card">
                     <div class="inner-item">
                         <div class="left">
-
+                            <img src="/portfolio-v3/wp-content/uploads/2018/12/img-magicmoney2.png" alt="iPad" />
                         </div>
                         <div class="center">
-                            <img src="https://placehold.it/400x300/f06/fff/?text=1" alt="">
+                            <h3>Tag Water</h3>
+                            <img src="/portfolio-v3/wp-content/uploads/2018/12/Tag-Water-Desktop.png" alt="Desktop">
                         </div>
                         <div class="right">
-
+                            <img src="/portfolio-v3/wp-content/uploads/2018/12/empty-phone-squashed.png" alt="iPhone" />
                         </div>
                     </div>
                 </div>
                 <div class="my-card">
                     <div class="inner-item">
                         <div class="left">
-
+                            <img src="/portfolio-v3/wp-content/uploads/2018/12/img-magicmoney2.png" alt="iPad" />
                         </div>
                         <div class="center">
-                            <img src="https://placehold.it/400x300/f06/fff/?text=1" alt="">
+                            <h3>Tag Water</h3>
+                            <img src="/portfolio-v3/wp-content/uploads/2018/12/Tag-Water-Desktop.png" alt="Desktop">
                         </div>
                         <div class="right">
-
+                            <img src="/portfolio-v3/wp-content/uploads/2018/12/empty-phone-squashed.png" alt="iPhone" />
                         </div>
                     </div>
                 </div>
                 <div class="my-card">
                     <div class="inner-item">
                         <div class="left">
-
+                            <img src="/portfolio-v3/wp-content/uploads/2018/12/iPad-TagWater.png" alt="iPad showcase of Tag Water concept" />
                         </div>
                         <div class="center">
-                            <img src="https://placehold.it/400x300/f06/fff/?text=1" alt="">
+                            <h3>Tag Water</h3>
+                            
+                            <div class="project-tags">
+                            <h4>In this project I've worked with:</h4>
+                                <span class="tag project-management">Project Management</span>
+                                <span class="tag frontend">Frontend Dev</span>
+                                <span class="tag ux-ui">UX/UI Design</span>
+                                <span class="tag wordpress">WordPress</span>
+                                <span class="tag programming">Backend Dev</span>
+                            </div>
+                            <img src="/portfolio-v3/wp-content/uploads/2018/12/Tag-Water-Desktop.png" alt="Desktop showcase of Tag Water concept">
+                            <a href="http://jespernpedersen.dk/tag-water" target="_blank" class="portfolio-btn">Take a look!</a>
                         </div>
                         <div class="right">
-
+                            <img src="/portfolio-v3/wp-content/uploads/2018/12/iPhone-TagWater.png" alt="iPhone showcase of Tag Water concept" />
                         </div>
                     </div>
                 </div>
                 <div class="my-card">
                     <div class="inner-item">
                         <div class="left">
-
+                            <img src="/portfolio-v3/wp-content/uploads/2018/12/img-magicmoney2.png" alt="iPad" />
                         </div>
                         <div class="center">
-                            <img src="https://placehold.it/400x300/f06/fff/?text=1" alt="">
+                            <h3>Tag Water</h3>
+                            <img src="/portfolio-v3/wp-content/uploads/2018/12/Tag-Water-Desktop.png" alt="Desktop">
                         </div>
                         <div class="right">
-
+                            <img src="/portfolio-v3/wp-content/uploads/2018/12/empty-phone-squashed.png" alt="iPhone" />
                         </div>
                     </div>
                 </div>
                 <div class="my-card">
                     <div class="inner-item">
                         <div class="left">
-
+                            <img src="/portfolio-v3/wp-content/uploads/2018/12/img-magicmoney2.png" alt="iPad" />
                         </div>
                         <div class="center">
-                            <img src="https://placehold.it/400x300/f06/fff/?text=1" alt="">
+                            <h3>Tag Water</h3>
+                            <img src="/portfolio-v3/wp-content/uploads/2018/12/Tag-Water-Desktop.png" alt="Desktop">
                         </div>
                         <div class="right">
-
+                            <img src="/portfolio-v3/wp-content/uploads/2018/12/empty-phone-squashed.png" alt="iPhone" />
                         </div>
                     </div>
                 </div>
                 <div class="my-card">
                     <div class="inner-item">
                         <div class="left">
-
+                            <img src="/portfolio-v3/wp-content/uploads/2018/12/img-magicmoney2.png" alt="iPad" />
                         </div>
                         <div class="center">
-                            <img src="https://placehold.it/400x300/f06/fff/?text=1" alt="">
+                            <h3>Tag Water</h3>
+                            <img src="/portfolio-v3/wp-content/uploads/2018/12/Tag-Water-Desktop.png" alt="Desktop">
                         </div>
                         <div class="right">
-
+                            <img src="/portfolio-v3/wp-content/uploads/2018/12/empty-phone-squashed.png" alt="iPhone" />
                         </div>
                     </div>
                 </div>
                 <div class="my-card">
                     <div class="inner-item">
                         <div class="left">
-
+                            <img src="/portfolio-v3/wp-content/uploads/2018/12/img-magicmoney2.png" alt="iPad" />
                         </div>
                         <div class="center">
-                            <img src="https://placehold.it/400x300/f06/fff/?text=1" alt="">
+                            <h3>Tag Water</h3>
+                            <img src="/portfolio-v3/wp-content/uploads/2018/12/Tag-Water-Desktop.png" alt="Desktop">
                         </div>
                         <div class="right">
-
+                            <img src="/portfolio-v3/wp-content/uploads/2018/12/empty-phone-squashed.png" alt="iPhone" />
                         </div>
                     </div>
                 </div>
