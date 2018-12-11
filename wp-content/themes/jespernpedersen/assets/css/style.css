@@ -479,6 +479,10 @@ Main
         background-color: #c53737;
     }
     
+    .project-tags span.tag.business {
+        background-color: #eec300;
+    }
+    
     .card-carousel .my-card.active .project-tags {
         top: 38px;
         transition-delay: 0.6s;
