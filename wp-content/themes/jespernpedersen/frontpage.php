@@ -106,6 +106,7 @@ get_header();
                                 <span class="tag ux-ui">UX/UI Design</span>
                                 <span class="tag wordpress">WordPress</span>
                                 <span class="tag programming">Backend Dev</span>
+                                <span class="tag concept-development">Concept Development</span>
                             </div>
                             <img src="/portfolio-v3/wp-content/uploads/2018/12/Tag-Water-Desktop.png" alt="Desktop showcase of Tag Water concept">
                             <a href="http://jespernpedersen.dk/tag-water" target="_blank" title="View my case of Tag Water" class="portfolio-btn">Take a look!</a>
@@ -128,10 +129,8 @@ get_header();
                                 <span class="tag project-management">Project Management</span>
                                 <span class="tag frontend">Frontend Dev</span>
                                 <span class="tag ux-ui">UX/UI Design</span>
-                                <span class="tag wordpress">WordPress</span>
-                                <span class="tag programming">Backend Dev</span>
                             </div>
-                            <img src="/portfolio-v3/wp-content/uploads/2018/12/Tag-Water-Desktop.png" alt="Desktop showcase of Tag Water concept">
+                            <img src="/portfolio-v3/wp-content/uploads/2018/12/Desktop-Hopla-Ridning.png" alt="Desktop showcase of Tag Water concept">
                             <a href="http://jespernpedersen.dk/tag-water" target="_blank" class="portfolio-btn">Take a look!</a>
                         </div>
                         <div class="right">

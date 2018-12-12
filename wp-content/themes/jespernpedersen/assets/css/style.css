@@ -400,9 +400,9 @@ Main
     }
     
     a.portfolio-btn {
-        position: absolute;
-        bottom: 35%;
-        left: 50%;
+        /* position: absolute; */
+        /* bottom: 35%; */
+        /* left: 50%; */
         transform: translate(-50%, 0);
         padding: 0 20px;
         height: 40px;
@@ -482,6 +482,10 @@ Main
     
     .project-tags span.tag.business {
         background-color: #eec300;
+    }
+    
+    .project-tags span.tag.concept-development {
+        background-color: #ea4e9d;
     }
     
     .card-carousel .my-card.active .project-tags {
@@ -762,17 +766,54 @@ Main
         color: #FFF;
         display: grid;
         width: 100%;
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 1fr 1fr;
         min-height: 300px;
         height: 300px;
         padding-top: 10px;
         padding-bottom: 80px;
     }
     
+    section.showcase p {
+        margin-top: 15px;
+        max-width: 600px;
+    }
+    
+    section.showcase h3 {
+        font-size: 12px;
+        text-transform: uppercase;
+        opacity: 0.6;
+    }
+    
+    section.showcase a.portfolio-btn {
+        position: static;
+        transform: none;
+        width: auto;
+        margin-top: 25px;
+        max-width: 110px;
+    }
+    
+    section.showcase a.portfolio-btn:hover {
+        max-width: 130px;
+    }
+    
     main#cases section.showcase:first-child {
         height: 600px;
         grid-column-start: 1;
         grid-column-end: 3;
+    }
+    
+    main#cases section.showcase:first-child .project-tags {
+        margin-top: 30px;
+    }
+    
+    main#cases section.showcase:not(:first-child) .project-tags h4 {
+        font-size: 12px;
+    }
+    
+    main#cases section.showcase:not(:first-child) .project-tags span {
+        font-size: 9px;
+        padding: 2px 5px 2px 5px;
+        margin: 3px 2px 0px 0px;
     }
     
     section.showcase.ecclesia {
@@ -795,10 +836,19 @@ Main
         background-color: #36495D;
     }
     
-    section.showcase figure,
-    section.showcase article {
+    section.showcase figure {
         display: flex;
         align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    section.showcase .project-tags {
+        margin-top: 10px;
+    }
+    
+    section.showcase article {
+        display: flex;
         justify-content: center;
         flex-direction: column;
     }
