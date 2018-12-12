@@ -400,9 +400,9 @@ Main
     }
     
     a.portfolio-btn {
-        /* position: absolute; */
-        /* bottom: 35%; */
-        /* left: 50%; */
+        position: absolute;
+        bottom: 35%;
+        left: 50%;
         transform: translate(-50%, 0);
         padding: 0 20px;
         height: 40px;
