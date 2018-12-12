@@ -139,20 +139,20 @@ get_header();
                         </div>
                     </div>
                 </div>
-                <div class="my-card">
-                    <div class="inner-item">
-                        <div class="left">
+                <section class="my-card">
+                    <section class="inner-item">
+                        <figure class="left">
                             <img src="/portfolio-v3/wp-content/uploads/2018/12/img-magicmoney2.png" alt="iPad" />
-                        </div>
-                        <div class="center">
+                        </figure>
+                        <article class="center">
                             <h3>Tag Water</h3>
                             <img src="/portfolio-v3/wp-content/uploads/2018/12/Tag-Water-Desktop.png" alt="Desktop">
-                        </div>
-                        <div class="right">
+                        </article>
+                        <figure class="right">
                             <img src="/portfolio-v3/wp-content/uploads/2018/12/empty-phone-squashed.png" alt="iPhone" />
-                        </div>
-                    </div>
-                </div>
+                        </figure>
+                    </section>
+                </section>
                 <div class="my-card">
                     <div class="inner-item">
                         <div class="left">
@@ -186,7 +186,13 @@ get_header();
     </section>
 
     <section id="showcase">
-        <h2>Tag Water</h2>
+        <article class="content">
+            <h3>Latest case</h3>
+            <h2>Tag Water</h2>
+        </article>
+        <figure>
+            <img src="/portfolio-v3/wp-content/uploads/2018/12/Tag-Water.png" alt="Tag Water Case" />
+        </figure>
     </section>
 
     <section id="skills">

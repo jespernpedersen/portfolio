@@ -292,8 +292,6 @@ Main
     main {
         min-height: calc(100vh - 101px - 85px);
         padding-bottom: 50px;
-        padding-left: 30px;
-        padding-right: 30px;
         overflow: hidden;
     }
     
@@ -301,7 +299,10 @@ Main
         float: left;
         min-height: calc(100vh);
         width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
     }
+    /* Portfolio Slider */
     
     section#portfolio-slider {
         padding-top: 0;
@@ -507,6 +508,7 @@ Main
         top: 40%;
         left: 50%;
         transform: translate(-50%, -50%);
+        padding-top: 73px;
     }
     
     .card-carousel .my-card .left {
@@ -686,47 +688,12 @@ Main
         font-weight: 300;
         color: #fff;
     }
-    /*
-
-#showcase {
-background-image: url('../images/showcase.jpg');
-background-repeat: no-repeat;
-background-size: 100% auto;
-min-height: 100vh;
-position: relative;
-z-index: 2;
-padding-right: 30px;
-padding-left: 30px;
-color: #FFF;
-}
-
-#showcase:before {
-height: 100%;
-width: 100%;
-content: "";
-background-color: rgba(0, 0, 0, 0.85);
-position: absolute;
-top: 0;
-pointer-events: none;
-z-index: -1;
-}
-
-#showcase article,
-#showcase figure {
-display: flex;
-align-items: center;
-justify-content: center;
-}
-
-*/
     
     .icon-scroll {
         position: absolute;
         left: 50%;
         bottom: 15px;
     }
-    
-    .icon-scroll:before {}
     
     .icon-scroll {
         width: 30px;
@@ -777,4 +744,71 @@ justify-content: center;
             -webkit-transform: translateY(30px);
             transform: translateY(30px);
         }
+    }
+    /* Showcase Section */
+    
+    main#cases {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-row-gap: 0px;
+        margin-top: 80px;
+        padding-bottom: 0;
+        min-height: inherit;
+        height: auto;
+    }
+    
+    section.showcase {
+        background-color: #3b6bb4;
+        color: #FFF;
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr 2fr;
+        min-height: 300px;
+        height: 300px;
+        padding-top: 10px;
+        padding-bottom: 80px;
+    }
+    
+    main#cases section.showcase:first-child {
+        height: 600px;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    
+    section.showcase.ecclesia {
+        background-color: rgb(32, 121, 175);
+    }
+    
+    section.showcase.frontend {
+        background-color: #37c5ab;
+    }
+    
+    section.showcase.hopla-ridning {
+        background-color: #99C2A2;
+    }
+    
+    section.showcase.hopla-dancing {
+        background-color: #CE5454;
+    }
+    
+    section.showcase.hotel-asteria {
+        background-color: #36495D;
+    }
+    
+    section.showcase figure,
+    section.showcase article {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    section.showcase figure img {
+        width: 500px;
+        max-width: 100%;
+    }
+    
+    main#cases section.showcase:first-child figure img {
+        width: 800px;
+        max-width: 100%;
     }
