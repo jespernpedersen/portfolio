@@ -719,63 +719,6 @@ Main
         font-weight: 300;
         color: #fff;
     }
-    
-    .icon-scroll {
-        position: absolute;
-        left: 50%;
-        bottom: 15px;
-    }
-    
-    .icon-scroll {
-        width: 30px;
-        height: 50px;
-        margin-left: -6px;
-        bottom: 4%;
-        margin-top: -35px;
-        box-shadow: inset 0 0 0 1px #FFFF;
-        border-radius: 25px;
-    }
-    
-    .icon-scroll:before {
-        content: '';
-        width: 4px;
-        height: 4px;
-        background: #FFFF;
-        margin-left: -4px;
-        top: 8px;
-        border-radius: 4px;
-        -webkit-animation-duration: 1.5s;
-        animation-duration: 1.5s;
-        -webkit-animation-iteration-count: infinite;
-        animation-iteration-count: infinite;
-        -webkit-animation-name: scroll;
-        animation-name: scroll;
-        left: 57%;
-        right: auto;
-        position: absolute;
-    }
-    
-    @-webkit-keyframes scroll {
-        0% {
-            opacity: 1;
-        }
-        100% {
-            opacity: 0;
-            -webkit-transform: translateY(30px);
-            transform: translateY(30px);
-        }
-    }
-    
-    @keyframes scroll {
-        0% {
-            opacity: 1;
-        }
-        100% {
-            opacity: 0;
-            -webkit-transform: translateY(30px);
-            transform: translateY(30px);
-        }
-    }
     /* Showcase Section */
     
     main#cases {

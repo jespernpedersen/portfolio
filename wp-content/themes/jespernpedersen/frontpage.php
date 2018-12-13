@@ -196,7 +196,6 @@ get_header();
                     </div>
                 </div>
             </div>
-            <div class="icon-scroll"></div>
     </section>
 
 </main>
