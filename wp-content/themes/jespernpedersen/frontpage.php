@@ -123,7 +123,7 @@ get_header();
                             <img src="/portfolio-v3/wp-content/uploads/2018/12/iPad-TagWater.png" alt="iPad showcase of Tag Water concept" />
                         </div>
                         <div class="center">
-                            <h3>Hopla Dans</h3>
+                            <h3>Hopla Dancing</h3>
                             
                             <div class="project-tags">
                             <h4>In this project I've contributed and worked with:</h4>
