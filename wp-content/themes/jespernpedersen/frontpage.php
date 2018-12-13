@@ -173,8 +173,22 @@ get_header();
                             <img src="/portfolio-v3/wp-content/uploads/2018/12/img-magicmoney2.png" alt="iPad" />
                         </div>
                         <div class="center">
-                            <h3>Tag Water</h3>
+                            <h3>Ecclesia</h3>
+                            <div class="project-tags">
+                                <h4>In this project I've contributed and worked with:</h4>
+                                <span class="tag nodejs">Node.js</span>
+                                <span class="tag javascript">JavaScript</span>
+                                <span class="tag websocket">WebSocket</span>
+                                <span class="tag frontend">Frontend Dev</span>
+                                <span class="tag ux-ui">UX/UI Design</span>
+                                <span class="tag business">Business Planning</span>
+                                <span class="tag programming">Backend Dev</span>
+                                <span class="tag concept-development">Concept Development</span>
+                                
+                                <span class="tag project-management">Project Management</span>
+                            </div>
                             <img src="/portfolio-v3/wp-content/uploads/2018/12/Tag-Water-Desktop.png" alt="Desktop">
+                            <a href="http://ecclesia-web.herokuapp.com/" target="_blank" title="Preview Ecclesia" class="portfolio-btn">Take a look!</a>
                         </div>
                         <div class="right">
                             <img src="/portfolio-v3/wp-content/uploads/2018/12/empty-phone-squashed.png" alt="iPhone" />

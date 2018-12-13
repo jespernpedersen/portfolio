@@ -71,7 +71,7 @@ get_header();
             <a href="http://jespernpedersen.dk/school/games/quackhood/" target="_blank" title="Play Quackhood" class="portfolio-btn">Play game</a>
         </article>
         <figure>
-            <img src="/portfolio-v3/wp-content/uploads/2018/12/Desktop-Quackhood-1.png" alt="Quackhood Case" />
+            <img src="/portfolio-v3/wp-content/uploads/2018/12/quackhood-case.png" alt="Quackhood Case" />
         </figure>
     </section>
 

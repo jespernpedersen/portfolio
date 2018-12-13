@@ -403,6 +403,7 @@ Main
         transition: 0.5s ease-in-out;
         text-align: center;
         width: 100%;
+        max-width: 328px;
     }
     
     a.portfolio-btn {
@@ -810,12 +811,6 @@ Main
         opacity: 0.6;
     }
     
-    section.showcase.game img {
-        width: auto;
-        height: 241px;
-        margin-top: 20px;
-    }
-    
     section.showcase a.portfolio-btn {
         transform: none;
         width: auto;
@@ -874,7 +869,7 @@ Main
     }
     
     section.showcase.rla {
-        background-color: #49ad4d;
+        background-color: #61af64;
     }
     
     section.showcase figure {
