@@ -59,6 +59,7 @@ add_action( 'widgets_init', 'jnp_widgets_init' );
 function jnp_scripts() {
 	wp_enqueue_style( 'jnp-style', get_stylesheet_uri() );
 	wp_enqueue_style( 'jnp-custom-style', get_template_directory_uri() . '/assets/css/style.css' );
+	wp_enqueue_style( 'jnp-responsive', get_template_directory_uri() . '/assets/css/responsive.css' );
 	wp_enqueue_script( 'jnp-scripts', get_template_directory_uri() . '/assets/js/scripts.js' );
 }
 add_action( 'wp_enqueue_scripts', 'jnp_scripts' );

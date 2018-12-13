@@ -1,0 +1,42 @@
+@media screen and (max-width: 1280px) {
+    section.showcase {
+        padding-top: 30px;
+    }
+    section.showcase h2 {
+        font-size: 20px;
+    }
+    section.showcase.game img {
+        margin-top: 0;
+        height: 171px;
+    }
+    section.showcase,
+    main#cases section.showcase:first-child {
+        height: auto;
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    main#cases {
+        grid-template-columns: auto;
+    }
+    main#cases section.showcase:first-child {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    section.showcase.game img {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    section.showcase {
+        grid-template-columns: auto;
+    }
+    section.showcase figure {
+        grid-row-start: 1;
+    }
+    section.showcase article {
+        grid-row-start: 2;
+    }
+}
