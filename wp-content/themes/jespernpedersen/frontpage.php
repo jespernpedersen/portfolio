@@ -184,20 +184,6 @@ get_header();
             <div class="icon-scroll"></div>
     </section>
 
-    <section id="showcase">
-        <article class="content">
-            <h3>Latest case</h3>
-            <h2>Tag Water</h2>
-        </article>
-        <figure>
-            <img src="/portfolio-v3/wp-content/uploads/2018/12/Tag-Water.png" alt="Tag Water Case" />
-        </figure>
-    </section>
-
-    <section id="skills">
-        <h2>Mine kompetencer</h2>
-    </section>
-
 </main>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" 
         integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" 

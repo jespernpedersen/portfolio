@@ -291,7 +291,6 @@ Main
     
     main {
         min-height: calc(100vh - 101px - 85px);
-        padding-bottom: 50px;
         overflow: hidden;
     }
     
@@ -805,7 +804,8 @@ Main
     }
     
     section.showcase.game img {
-        width: 310px;
+        width: auto;
+        height: 241px;
         margin-top: 20px;
     }
     
@@ -851,7 +851,7 @@ Main
     }
     
     section.showcase.hopla-ridning {
-        background-color: #99C2A2;
+        background-color: #6e9677;
     }
     
     section.showcase.hopla-dancing {
@@ -864,6 +864,10 @@ Main
     
     section.showcase.quackhood {
         background-color: #ad6d48;
+    }
+    
+    section.showcase.rla {
+        background-color: #49ad4d;
     }
     
     section.showcase figure {
