@@ -29,7 +29,7 @@ get_header();
                 <span class="tag programming">Backend Dev</span>
                 <span class="tag concept-development">Concept Development</span>
             </div>
-            <a href="http://ecclesia-web.herokuapp.com/ target="_blank" title="Preview Ecclesia" class="portfolio-btn">View website</a>
+            <a href="http://ecclesia-web.herokuapp.com/" target="_blank" title="Preview Ecclesia" class="portfolio-btn">View website</a>
         </article>
         <figure>
             <img src="/portfolio-v3/wp-content/uploads/2018/12/Ecclesia-Showcase.png" alt="Ecclesia Case" />
@@ -107,10 +107,10 @@ get_header();
                     <span class="tag frontend">Frontend Dev</span>
                     <span class="tag ux-ui">UX/UI Design</span>
             </div>
-            <a href="http://ecclesia-web.herokuapp.com/ target="_blank" title="Preview Ecclesia" class="portfolio-btn">View website</a>
+            <a href="http://jespernpedersen.dk/hopla/" target="_blank" title="Preview Hopla Dancing" class="portfolio-btn">View website</a>
         </article>
         <figure>
-            <img src="/portfolio-v3/wp-content/uploads/2018/12/Tag-Water.png" alt="Tag Water Case" />
+            <img src="/portfolio-v3/wp-content/uploads/2018/12/alldevices-hopla-dans.png" alt="Hopla Dancing Case" />
         </figure>
     </section>
 

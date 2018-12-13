@@ -27,6 +27,9 @@
     section.showcase.game img {
         height: auto;
     }
+    #profile {
+        bottom: 17%;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -38,5 +41,21 @@
     }
     section.showcase article {
         grid-row-start: 2;
+    }
+    section#portfolio-slider {
+        background-size: 600px auto;
+    }
+    .card-carousel .my-card .left,
+    .card-carousel .my-card .right {
+        display: none;
+    }
+    #profile {
+        bottom: 11%;
+    }
+    #profile h1 {
+        font-size: 20px;
+    }
+    #profile p {
+        font-size: 14px;
     }
 }

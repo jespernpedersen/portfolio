@@ -120,7 +120,7 @@ get_header();
                 <div class="my-card">
                     <div class="inner-item">
                         <div class="left">
-                            <img src="/portfolio-v3/wp-content/uploads/2018/12/iPad-TagWater.png" alt="iPad showcase of Tag Water concept" />
+                            <img src="/portfolio-v3/wp-content/uploads/2018/12/img-magicmoney2.png" alt="iPad showcase of Hopla Riding" />
                         </div>
                         <div class="center">
                             <h3>Hopla Dancing</h3>
@@ -135,18 +135,26 @@ get_header();
                             <a href="http://jespernpedersen.dk/tag-water" target="_blank" class="portfolio-btn">Take a look!</a>
                         </div>
                         <div class="right">
-                            <img src="/portfolio-v3/wp-content/uploads/2018/12/iPhone-TagWater.png" alt="iPhone showcase of Tag Water concept" />
+                            <img src="/portfolio-v3/wp-content/uploads/2018/12/empty-phone-squashed.png" alt="iPhone showcase of Tag Water concept" />
                         </div>
                     </div>
                 </div>
                 <section class="my-card">
                     <section class="inner-item">
                         <figure class="left">
-                            <img src="/portfolio-v3/wp-content/uploads/2018/12/img-magicmoney2.png" alt="iPad" />
+                            <img src="/portfolio-v3/wp-content/uploads/2018/12/iPad-RLA.png" alt="iPad showcase of Tag Water concept" />
                         </figure>
                         <article class="center">
-                            <h3>Tag Water</h3>
+                            <h3>RLA</h3>
                             <img src="/portfolio-v3/wp-content/uploads/2018/12/Tag-Water-Desktop.png" alt="Desktop">
+                            <div class="project-tags">
+                                <h4>In this project I've contributed and worked with:</h4>
+                                <span class="tag project-management">Project Management</span>
+                                <span class="tag frontend">Frontend Dev</span>
+                                <span class="tag ux-ui">UX/UI Design</span>
+                                <span class="tag wordpress">WordPress</span>
+                                <span class="tag programming">Backend Dev</span>
+                            </div>
                         </article>
                         <figure class="right">
                             <img src="/portfolio-v3/wp-content/uploads/2018/12/empty-phone-squashed.png" alt="iPhone" />

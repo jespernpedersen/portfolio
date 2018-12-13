@@ -142,6 +142,7 @@ Header
         padding-right: 30px;
         display: grid;
         position: fixed;
+        top: 0;
         width: 100%;
         z-index: 8;
         grid-template-columns: auto auto;
@@ -314,7 +315,6 @@ Main
         padding-top: 0;
         background-image: url('../images/portfolio-background.png');
         background-repeat: no-repeat;
-        background-size: 100% auto;
         background-position: center bottom;
     }
     
@@ -452,8 +452,7 @@ Main
     }
     
     .active a.portfolio-btn {
-        bottom: 0px;
-        transition-delay: bottom 0.6s;
+        bottom: 30px;
     }
     
     .card-carousel .project-tags h4 {
@@ -555,7 +554,7 @@ Main
     .card-carousel .left img {
         max-width: 151px;
         position: absolute;
-        top: 63%;
+        top: 57%;
         left: 42%;
         transform: translate(-50%, -50%);
         margin-left: 0;
@@ -564,7 +563,7 @@ Main
     .card-carousel .right img {
         max-width: 70px;
         position: absolute;
-        top: 64%;
+        top: 58%;
         left: 50%;
         transform: translate(-50%, -50%);
         margin-left: -12px;
@@ -591,13 +590,13 @@ Main
         transform: translate(-50%, -50%);
         z-index: 99999999999999999999999999999;
         opacity: 1;
-        max-width: 260px;
+        max-width: 210px;
         transition: 0.3s ease-in-out;
     }
     
     .card-carousel .active .center img {
-        max-width: 336px;
-        top: 60%;
+        max-width: 286px;
+        top: 55%;
     }
     
     .card-carousel .my-card .right {
@@ -725,7 +724,7 @@ Main
         display: grid;
         grid-template-columns: auto auto;
         grid-row-gap: 0px;
-        margin-top: 80px;
+        margin-top: 48px;
         padding-bottom: 0;
         min-height: inherit;
         height: auto;
@@ -741,6 +740,28 @@ Main
         height: 300px;
         padding-top: 10px;
         padding-bottom: 10px;
+    }
+    
+    section.showcase figure {
+        position: relative;
+    }
+    
+    section.showcase figure:after {
+        content: "";
+        background-image: url('../images/zoom.png');
+        background-repeat: no-repeat;
+        background-size: 20px auto;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        display: block;
+        pointer-events: none;
+    }
+    
+    section.showcase:first-child figure:after {
+        display: none;
     }
     
     section.showcase p {
