@@ -19,22 +19,29 @@ get_header();
             between a chat application and a social media while also having emphasis on communities</p>                            
             <div class="project-tags">
                     <h4>In this project I've contributed and worked with:</h4>
+                    
+                    <span class="tag nodejs">Node.js</span>
+                    <span class="tag javascript">JavaScript</span>
+                    <span class="tag websocket">WebSocket</span>
                     <span class="tag project-management">Project Management</span>
                     <span class="tag frontend">Frontend Dev</span>
                     <span class="tag ux-ui">UX/UI Design</span>
                     <span class="tag business">Business Planning</span>
+                    <span class="tag programming">Backend Dev</span>
+                    <span class="tag concept-development">Concept Development</span>
             </div>
 
-            <a href="http://jespernpedersen.dk/hotel-asteria/" target="_blank" title="View my case of Hotel Asteria" class="portfolio-btn">Take a look!</a>
+            <a href="http://ecclesia-web.herokuapp.com/ target="_blank" title="Preview Ecclesia" class="portfolio-btn">View website</a>
 
         </article>
         <figure>
-            <img src="/portfolio-v3/wp-content/uploads/2018/12/Tag-Water.png" alt="Tag Water Case" />
+            <img src="/portfolio-v3/wp-content/uploads/2018/12/Ecclesia-Showcase.png" alt="Ecclesia Case" />
         </figure>
     </section>
     
     <section class="showcase">
         <article class="content">
+            <h3>Website</h3>
             <h2>Tag Water</h2>          
             <div class="project-tags">
                     <h4>In this project I've contributed and worked with:</h4>
@@ -43,19 +50,43 @@ get_header();
                     <span class="tag ux-ui">UX/UI Design</span>
                     <span class="tag business">Business Planning</span>
             </div>
+            <a href="http://ecclesia-web.herokuapp.com/ target="_blank" title="Preview Ecclesia" class="portfolio-btn">View website</a>
         </article>
         <figure>
             <img src="/portfolio-v3/wp-content/uploads/2018/12/Tag-Water.png" alt="Tag Water Case" />
         </figure>
     </section>
 
+
+    
+
+
+    
+    <section class="showcase quackhood game">
+        <article class="content">
+            <h3>Game</h3>
+            <h2>Quackhood</h2>                      
+            <div class="project-tags">
+                    <h4>In this project I've contributed and worked with:</h4>
+                    <span class="tag unity">Unity</span>
+                    <span class="tag csharp">C#</span>
+                    <span class="tag project-management">Project Management</span>
+                    <span class="tag ux-ui">UX/UI Design</span>
+            </div>
+            
+            <a href="http://ecclesia-web.herokuapp.com/ target="_blank" title="Preview Ecclesia" class="portfolio-btn">Play game</a>
+        </article>
+        <figure>
+            <img src="/portfolio-v3/wp-content/uploads/2018/12/Desktop-Quackhood.png" alt="Quackhood Case" />
+        </figure>
+    </section>
+
     
     <section class="showcase hopla-ridning">
         <article class="content">
-            <h2>Hopla Riding</h2>
-                        
             
-                            
+            <h3>Website</h3>
+            <h2>Hopla Riding</h2>            
             <div class="project-tags">
                     <h4>In this project I've contributed and worked with:</h4>
                     <span class="tag project-management">Project Management</span>
@@ -63,6 +94,7 @@ get_header();
                     <span class="tag ux-ui">UX/UI Design</span>
                     <span class="tag business">Business Planning</span>
             </div>
+            <a href="http://ecclesia-web.herokuapp.com/ target="_blank" title="Preview Ecclesia" class="portfolio-btn">View website</a>
         </article>
         <figure>
             <img src="/portfolio-v3/wp-content/uploads/2018/12/Tag-Water.png" alt="Tag Water Case" />
@@ -73,10 +105,9 @@ get_header();
     
     <section class="showcase hopla-dancing">
         <article class="content">
-            <h2>Hopla Dancing</h2>
-                        
             
-                            
+        <h3>Website</h3>
+            <h2>Hopla Dancing</h2>         
             <div class="project-tags">
                     <h4>In this project I've contributed and worked with:</h4>
                     <span class="tag project-management">Project Management</span>
@@ -84,6 +115,7 @@ get_header();
                     <span class="tag ux-ui">UX/UI Design</span>
                     <span class="tag business">Business Planning</span>
             </div>
+            <a href="http://ecclesia-web.herokuapp.com/ target="_blank" title="Preview Ecclesia" class="portfolio-btn">View website</a>
         </article>
         <figure>
             <img src="/portfolio-v3/wp-content/uploads/2018/12/Tag-Water.png" alt="Tag Water Case" />
@@ -94,10 +126,8 @@ get_header();
     
     <section class="showcase hotel-asteria">
         <article class="content">
+            <h3>Website</h3>
             <h2>Hotel Asteria</h2>
-                        
-            
-                            
             <div class="project-tags">
                     <h4>In this project I've contributed and worked with:</h4>
                     <span class="tag project-management">Project Management</span>
@@ -105,17 +135,7 @@ get_header();
                     <span class="tag ux-ui">UX/UI Design</span>
                     <span class="tag business">Business Planning</span>
             </div>
-        </article>
-        <figure>
-            <img src="/portfolio-v3/wp-content/uploads/2018/12/Tag-Water.png" alt="Tag Water Case" />
-        </figure>
-    </section>
-
-
-    
-    <section class="showcase frontend">
-        <article class="content">
-            <h2>Tag Water</h2>
+            <a href="http://ecclesia-web.herokuapp.com/ target="_blank" title="Preview Ecclesia" class="portfolio-btn">View website</a>
         </article>
         <figure>
             <img src="/portfolio-v3/wp-content/uploads/2018/12/Tag-Water.png" alt="Tag Water Case" />

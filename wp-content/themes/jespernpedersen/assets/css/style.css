@@ -481,11 +481,31 @@ Main
     }
     
     .project-tags span.tag.business {
-        background-color: #eec300;
+        background-color: #21c18e;
     }
     
     .project-tags span.tag.concept-development {
         background-color: #ea4e9d;
+    }
+    
+    .project-tags span.tag.nodejs {
+        background-color: #73b857;
+    }
+    
+    .project-tags span.tag.javascript {
+        background-color: #f5b61f;
+    }
+    
+    .project-tags span.tag.websocket {
+        background-color: #f5821f;
+    }
+    
+    .project-tags span.tag.unity {
+        background-color: #a19e9e;
+    }
+    
+    .project-tags span.tag.csharp {
+        background-color: #ff8fee;
     }
     
     .card-carousel .my-card.active .project-tags {
@@ -784,16 +804,31 @@ Main
         opacity: 0.6;
     }
     
+    section.showcase.game img {
+        width: 310px;
+        margin-top: 20px;
+    }
+    
     section.showcase a.portfolio-btn {
-        position: static;
         transform: none;
         width: auto;
         margin-top: 25px;
-        max-width: 110px;
+        max-width: 117px;
+        position: relative;
+        bottom: auto;
+        left: auto;
+    }
+    
+    section.showcase.game a.portfolio-btn {
+        max-width: 105px;
     }
     
     section.showcase a.portfolio-btn:hover {
-        max-width: 130px;
+        max-width: 135px;
+    }
+    
+    section.showcase.game a.portfolio-btn:hover {
+        max-width: 123px;
     }
     
     main#cases section.showcase:first-child {
@@ -804,16 +839,7 @@ Main
     
     main#cases section.showcase:first-child .project-tags {
         margin-top: 30px;
-    }
-    
-    main#cases section.showcase:not(:first-child) .project-tags h4 {
-        font-size: 12px;
-    }
-    
-    main#cases section.showcase:not(:first-child) .project-tags span {
-        font-size: 9px;
-        padding: 2px 5px 2px 5px;
-        margin: 3px 2px 0px 0px;
+        max-width: 400px;
     }
     
     section.showcase.ecclesia {
@@ -834,6 +860,10 @@ Main
     
     section.showcase.hotel-asteria {
         background-color: #36495D;
+    }
+    
+    section.showcase.quackhood {
+        background-color: #ad6d48;
     }
     
     section.showcase figure {

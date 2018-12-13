@@ -25,7 +25,7 @@
 <header class="site-header">
 	<article class="site-titles">
 		<a href="/portfolio-v3/" title="Go to frontpage">
-			<img src="/portfolio-v3/wp-content/uploads/2018/12/header-logo.png" class="fadeIn" alt="Logo" />
+			<img src="/portfolio-v3/wp-content/uploads/2018/12/ecclesia-logo.png" class="fadeIn" alt="Logo" />
 			<span class="site-title">Jesper Pedersen</span>
 			<span class="profession">- Full Stack Developer</span>
 		</a>

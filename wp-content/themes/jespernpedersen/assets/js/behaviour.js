@@ -13,7 +13,7 @@ if ($num % 2 == 0) {
 }
 
 $('.my-card').click(function() {
-    $slide = $('.active .center').width();
+    $slide = $('.active .center').width() - 26;
     console.log($('.active').position().left);
 
     if ($(this).hasClass('next')) {
