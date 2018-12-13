@@ -17,7 +17,7 @@ get_header();
             <img src="/portfolio-v3/wp-content/uploads/2018/12/13718519_10205004085860709_9041351760399082318_n.jpg" id="profile-image" itemprop="image" alt="A picture of myself" />
             
 
-                <div id="social-media">
+                <div id="social-media" class="social-media">
                     <div class="social-media-item">
                         <a class="social-icon-linkedin" href="https://www.linkedin.com/in/jespernpedersen/" target="_blank" title="Se min Linkedin for flere informationer!"><img src="/portfolio-v3/wp-content/themes/jespernpedersen/assets/images/linkedin.svg" /></a>
                     </div>
@@ -82,6 +82,7 @@ get_header();
                                 <span class="tag frontend">Frontend Dev</span>
                                 <span class="tag ux-ui">UX/UI Design</span>
                                 <span class="tag business">Business Planning</span>
+                                <span class="tag concept-development">Concept Development</span>
                             </div>
                             <img src="/portfolio-v3/wp-content/uploads/2018/12/Desktop-Asteria.png" alt="Desktop showcase of Hotel Asteria concept">
                             <a href="http://jespernpedersen.dk/hotel-asteria/" target="_blank" title="View my case of Hotel Asteria" class="portfolio-btn">Take a look!</a>

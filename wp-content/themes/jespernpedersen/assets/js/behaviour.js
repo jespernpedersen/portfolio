@@ -39,3 +39,9 @@ $('html body').keydown(function(e) {
         $('.active').next().trigger('click');
     }
 });
+
+// Case Modal Window
+$('.showcase figure').click(function(e) {
+    console.log("Click");
+    this.addClass("active");
+});

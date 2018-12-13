@@ -18,7 +18,7 @@
 	<?php wp_head(); ?>
 </head>
 
-<body>
+<body class="not-active">
 	
 <a class="screen-reader-text" href="#content">Skip to content</a>
 

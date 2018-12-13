@@ -237,6 +237,13 @@ Footer
         padding-bottom: 15px;
         padding-left: 30px;
         padding-right: 30px;
+        text-align: right;
+    }
+    
+    footer #footer-social.social-media {
+        display: inline-block;
+        margin-top: 0;
+        vertical-align: middle;
     }
     /* 
 --------------------------------------------------------
@@ -345,11 +352,11 @@ Main
         width: 100%;
     }
     
-    #social-media .social-media-item a {
+    .social-media .social-media-item a {
         display: block;
     }
     
-    #social-media .social-media-item a img {
+    .social-media .social-media-item a img {
         max-width: 32px;
         -webkit-filter: grayscale(100%);
         /* Safari 6.0 - 9.0 */
@@ -357,7 +364,7 @@ Main
         transition: 0.3s ease-in-out;
     }
     
-    #social-media .social-media-item a:hover img {
+    .social-media .social-media-item a:hover img {
         -webkit-filter: grayscale(0%);
         /* Safari 6.0 - 9.0 */
         filter: grayscale(0%);
@@ -480,7 +487,7 @@ Main
     }
     
     .project-tags span.tag.business {
-        background-color: #21c18e;
+        background-color: #ad6d48;
     }
     
     .project-tags span.tag.concept-development {
@@ -879,6 +886,7 @@ Main
     
     section.showcase .project-tags {
         margin-top: 10px;
+        max-width: 360px;
     }
     
     section.showcase article {
@@ -890,9 +898,68 @@ Main
     section.showcase figure img {
         width: 500px;
         max-width: 100%;
+        transition: 0.6s ease-in-out;
+        cursor: pointer;
     }
     
     main#cases section.showcase:first-child figure img {
         width: 800px;
         max-width: 100%;
+    }
+    
+    body {
+        transition: 0.6s ease-in-out;
+    }
+    
+    body.picture-active:before {
+        background-color: rgba(0, 0, 0, 0.9);
+        content: "";
+        height: 100%;
+        position: fixed;
+        z-index: 15;
+        width: 100vw;
+        top: 0;
+        height: 100vh;
+        pointer-events: none;
+        opacity: 1;
+    }
+    
+    main#cases section.showcase:first-child figure.active img,
+    section.showcase figure.active img {
+        position: fixed;
+        width: auto;
+        height: auto;
+        left: 50%;
+        top: 50%;
+        max-width: 70%;
+        transform: translate(-50%, -50%);
+        z-index: 16;
+    }
+    
+    .picture-active section.showcase figure {
+        pointer-events: none;
+    }
+    
+    body.picture-active {
+        overflow: hidden;
+    }
+    
+    .close-modal {
+        background-image: url(../images/close-icon.png);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        width: 40px;
+        height: 40px;
+        position: fixed;
+        z-index: 17;
+        right: 10%;
+        opacity: 0;
+        pointer-events: none;
+        transition: 0.3s ease-in-out;
+    }
+    
+    .picture-active .close-modal {
+        opacity: 1;
+        pointer-events: all;
+        cursor: pointer;
     }

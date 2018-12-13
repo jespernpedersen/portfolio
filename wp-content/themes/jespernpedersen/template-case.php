@@ -66,6 +66,7 @@ get_header();
                 <span class="tag csharp">C#</span>
                 <span class="tag project-management">Project Management</span>
                 <span class="tag ux-ui">UX/UI Design</span>
+                <span class="tag concept-development">Concept Development</span>
             </div>
             <a href="http://jespernpedersen.dk/school/games/quackhood/" target="_blank" title="Play Quackhood" class="portfolio-btn">Play game</a>
         </article>
@@ -86,10 +87,10 @@ get_header();
                 <span class="tag frontend">Frontend Dev</span>
                 <span class="tag ux-ui">UX/UI Design</span>
             </div>
-            <a href="http://ecclesia-web.herokuapp.com/ target="_blank" title="Preview Ecclesia" class="portfolio-btn">View website</a>
+            <a href="http://jespernpedersen.dk/MMD/hopla-ridning/index.html" target="_blank" title="Preview Hopla Riding" class="portfolio-btn">View website</a>
         </article>
         <figure>
-            <img src="/portfolio-v3/wp-content/uploads/2018/12/Tag-Water.png" alt="Tag Water Case" />
+            <img src="/portfolio-v3/wp-content/uploads/2018/12/alldevices-hoplaridning.png" alt="Tag Water Case" />
         </figure>
     </section>
 
@@ -125,6 +126,7 @@ get_header();
                 <span class="tag frontend">Frontend Dev</span>
                 <span class="tag ux-ui">UX/UI Design</span>
                 <span class="tag business">Business Planning</span>
+                <span class="tag concept-development">Concept Development</span>
             </div>
             <a href="http://ecclesia-web.herokuapp.com/ target="_blank" title="Preview Ecclesia" class="portfolio-btn">View website</a>
         </article>
@@ -152,26 +154,16 @@ get_header();
             <img src="/portfolio-v3/wp-content/uploads/2018/12/alldevices-rla.png" alt="Roskilde Lokalhistoriske Arkiv Case" />
         </figure>
     </section>
-    
-    <section class="showcase frontend">
-        <article class="content">
-            <h2>Tag Water</h2>
-        </article>
-        <figure>
-            <img src="/portfolio-v3/wp-content/uploads/2018/12/Tag-Water.png" alt="Tag Water Case" />
-        </figure>
-    </section>
 
-    
-    <section class="showcase frontend">
-        <article class="content">
-            <h2>Tag Water</h2>
-        </article>
-        <figure>
-            <img src="/portfolio-v3/wp-content/uploads/2018/12/Tag-Water.png" alt="Tag Water Case" />
-        </figure>
-    </section>
+    <span class="close-modal"></span>
     
 </main>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" 
+        integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" 
+        crossorigin="anonymous">
+</script> 
+<script src="/portfolio-v3/wp-content/themes/jespernpedersen/assets/js/scripts.js"></script>
 <?php
 get_footer();
