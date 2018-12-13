@@ -128,10 +128,10 @@ get_header();
                 <span class="tag business">Business Planning</span>
                 <span class="tag concept-development">Concept Development</span>
             </div>
-            <a href="http://ecclesia-web.herokuapp.com/ target="_blank" title="Preview Ecclesia" class="portfolio-btn">View website</a>
+            <a href="http://jespernpedersen.dk/hotel-asteria/" target="_blank" title="Preview Hotel Asteria" class="portfolio-btn">View website</a>
         </article>
         <figure>
-            <img src="/portfolio-v3/wp-content/uploads/2018/12/Tag-Water.png" alt="Tag Water Case" />
+            <img src="/portfolio-v3/wp-content/uploads/2018/12/alldevices-asteria.png" alt="Hotel Asteria Case" />
         </figure>
     </section>
 

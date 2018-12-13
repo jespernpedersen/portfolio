@@ -45,7 +45,7 @@ function autoPlay() {
 $(function() {
 
     // Here we set how long. Each 1000 is 1 second.
-    var timer = 7500;
+    var timer = 6000;
 
 
     // Here we count to when we begin our first play
@@ -59,9 +59,7 @@ $(function() {
 
             // This is the time for when the next time it begins.
 
-            $(window).focus(function() {
-                setTimeout(sayHi, timer);
-            });
+            setTimeout(sayHi, timer);
 
             // Get the current menu item
             $current_item = $('.my-card.active');
