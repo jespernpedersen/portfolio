@@ -74,7 +74,7 @@ get_header();
                     <span class="tag ux-ui">UX/UI Design</span>
             </div>
             
-            <a href="http://ecclesia-web.herokuapp.com/ target="_blank" title="Preview Ecclesia" class="portfolio-btn">Play game</a>
+            <a href="http://jespernpedersen.dk/school/games/quackhood/" target="_blank" title="Play Quackhood" class="portfolio-btn">Play game</a>
         </article>
         <figure>
             <img src="/portfolio-v3/wp-content/uploads/2018/12/Desktop-Quackhood.png" alt="Quackhood Case" />
