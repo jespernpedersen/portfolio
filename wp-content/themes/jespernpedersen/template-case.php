@@ -30,9 +30,7 @@ get_header();
                     <span class="tag programming">Backend Dev</span>
                     <span class="tag concept-development">Concept Development</span>
             </div>
-
             <a href="http://ecclesia-web.herokuapp.com/ target="_blank" title="Preview Ecclesia" class="portfolio-btn">View website</a>
-
         </article>
         <figure>
             <img src="/portfolio-v3/wp-content/uploads/2018/12/Ecclesia-Showcase.png" alt="Ecclesia Case" />
@@ -50,18 +48,13 @@ get_header();
                     <span class="tag ux-ui">UX/UI Design</span>
                     <span class="tag business">Business Planning</span>
             </div>
-            <a href="http://ecclesia-web.herokuapp.com/ target="_blank" title="Preview Ecclesia" class="portfolio-btn">View website</a>
+            <a href="http://jespernpedersen.dk/tag-water" target="_blank" title="Preview Tag Water" class="portfolio-btn">View website</a>
         </article>
         <figure>
             <img src="/portfolio-v3/wp-content/uploads/2018/12/Tag-Water.png" alt="Tag Water Case" />
         </figure>
     </section>
 
-
-    
-
-
-    
     <section class="showcase quackhood game">
         <article class="content">
             <h3>Game</h3>
