@@ -125,7 +125,7 @@ body.offcanvas-active .main-navigation.mobile {
     section.showcase article {
         grid-row-start: 2;
     }
-    section#portfolio-slider {
+    section#portfolio-slider-section {
         background-size: 600px auto;
     }
     .card-carousel .my-card .left,
@@ -225,7 +225,7 @@ body.offcanvas-active .main-navigation.mobile {
         display: grid;
         grid-template-columns: 45px auto;
     }
-    section#portfolio-slider {
+    section#portfolio-slider-section {
         padding-top: 0;
         background-image: url(../images/portfolio-background.png);
         background-repeat: no-repeat;
@@ -261,7 +261,7 @@ body.offcanvas-active .main-navigation.mobile {
         width: auto;
         height: 42%;
     }
-    section#portfolio-slider {
+    section#portfolio-slider-section {
         position: relative;
     }
 }

@@ -12,7 +12,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
 	<?php wp_head(); ?>
@@ -77,7 +77,7 @@
 				'menu_id'        => 'primary-menu',
 			) );
 			?>
-			<a href="wp-content/uploads/2018/12/cv.pdf" class="cta-button">Download resumé</a>
+			<a href="/portfolio-v3/wp-content/uploads/2018/12/cv.pdf" title="Download my CV" class="cta-button">Download resumé</a>
 	</nav>
 			<?php } ?>
 			
