@@ -231,7 +231,7 @@ body.offcanvas-active .main-navigation.mobile {
         background-repeat: no-repeat;
         background-position: center bottom;
         padding-bottom: 120px;
-        min-height: 962px;
+        min-height: 842px;
         overflow: hidden;
     }
     main#frontpage {
@@ -240,10 +240,11 @@ body.offcanvas-active .main-navigation.mobile {
         width: 100%;
     }
     #profile {
-        bottom: 0;
+        bottom: 22%;
     }
     .card-carousel {
         overflow: hidden;
+        top: 24%;
     }
     .card-carousel .my-card {
         overflow: hidden;
@@ -251,5 +252,16 @@ body.offcanvas-active .main-navigation.mobile {
     body {
         overflow-x: hidden;
         max-width: 100vw;
+    }
+    .card-carousel .my-card {
+        height: 25rem;
+    }
+    .card-carousel .active .center img {
+        max-width: none;
+        width: auto;
+        height: 42%;
+    }
+    section#portfolio-slider {
+        position: relative;
     }
 }

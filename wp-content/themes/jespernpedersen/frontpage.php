@@ -212,5 +212,7 @@ get_header();
         crossorigin="anonymous">
 </script> 
 <script src="/portfolio-v3/wp-content/themes/jespernpedersen/assets/js/behaviour.js"></script>
+
+<script src="/portfolio-v3/wp-content/themes/jespernpedersen/assets/js/scripts.js"></script>
 <?php
 get_footer();
