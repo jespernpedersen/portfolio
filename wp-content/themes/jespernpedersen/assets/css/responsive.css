@@ -14,6 +14,18 @@
         height: auto;
         padding-bottom: 40px;
     }
+    main#about-me>section#skills,
+    main#about-me>section#contact {
+        padding-top: 50px;
+        padding-bottom: 110px;
+    }
+    #about-me #me img {
+        position: absolute;
+        bottom: 0;
+    }
+    .skill-showcase {
+        flex-wrap: wrap;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -29,6 +41,9 @@
     }
     #profile {
         bottom: 17%;
+    }
+    #about-me #me img {
+        bottom: auto;
     }
 }
 
@@ -57,5 +72,35 @@
     }
     #profile p {
         font-size: 14px;
+    }
+    main#about-me,
+    form.wpcf7-form {
+        grid-template-columns: 1fr;
+    }
+    main#about-me>section#me {
+        grid-column-start: 1;
+        grid-row-start: 1;
+        padding-top: 50px;
+    }
+    main#about-me>section#me img {
+        position: static;
+    }
+    section#skills {
+        grid-row-start: 2;
+    }
+    .wpcf7-form label {
+        width: 100%;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+        max-width: 100%;
+    }
+    #submit {
+        float: none;
+    }
+    .last-column p:last-of-type {
+        text-align: center;
     }
 }
