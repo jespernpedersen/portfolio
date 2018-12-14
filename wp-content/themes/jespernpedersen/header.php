@@ -18,9 +18,30 @@
 	<?php wp_head(); ?>
 </head>
 
-<body class="not-active">
+<body class="not-active <?php 
+	if (is_front_page()) { 
+		echo 'home'; 
+	} ?>">
 	
 <a class="screen-reader-text" href="#content">Skip to content</a>
+
+
+<?php 
+	if ( wp_is_mobile() ) {
+?>
+	<div id="mobile-nav-wrapper">
+		<nav class="main-navigation mobile">
+			<?php
+			wp_nav_menu( array(
+				'theme_location' => 'menu-1',
+				'menu_id'        => 'primary-menu',
+			) );
+			?>
+			<a href="wp-content/uploads/2018/12/cv.pdf" class="cta-button">Download resumé</a>
+		</nav>
+    	<span id="nav-close-icon"></span>
+	</div>
+	<?php } ?>
 
 <header class="site-header">
 	<article class="site-titles">
@@ -30,15 +51,22 @@
 			<span class="profession">- Full Stack Developer</span>
 		</a>
 	</article>
-
+	<?php if ( !wp_is_mobile() ) {
+	?>
 	<nav class="main-navigation">
-		<?php
-		wp_nav_menu( array(
-			'theme_location' => 'menu-1',
-			'menu_id'        => 'primary-menu',
-		) );
-		?>
-		<a href="wp-content/uploads/2018/12/cv.pdf" class="cta-button">Download resumé</a>
+			<?php
+			wp_nav_menu( array(
+				'theme_location' => 'menu-1',
+				'menu_id'        => 'primary-menu',
+			) );
+			?>
+			<a href="wp-content/uploads/2018/12/cv.pdf" class="cta-button">Download resumé</a>
 	</nav>
+			<?php } ?>
+			
+	
+	<figure class="responsive-menu">
+		<img src="/portfolio-v3/wp-content/themes/jespernpedersen/assets/images/burger-icon-menu.png" alt="Icon for Responsive Menu">
+	</figure>
 </header>
 	

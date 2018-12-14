@@ -78,6 +78,7 @@ get_header();
                 <span class="tag business">Business Planning</span>
                 <span class="tag programming">Backend Dev</span>
                 <span class="tag unity">Unity</span>
+                <span class="tag database">MySQL</span>
             </div>
 
         <div class="icon-scroll"></div>

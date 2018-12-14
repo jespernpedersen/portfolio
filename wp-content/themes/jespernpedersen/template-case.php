@@ -28,6 +28,8 @@ get_header();
                 <span class="tag business">Business Planning</span>
                 <span class="tag programming">Backend Dev</span>
                 <span class="tag concept-development">Concept Development</span>
+                
+                <span class="tag database">MySQL</span>
             </div>
             <a href="http://ecclesia-web.herokuapp.com/" target="_blank" title="Preview Ecclesia" class="portfolio-btn">View website</a>
         </article>
@@ -48,6 +50,7 @@ get_header();
                 <span class="tag wordpress">WordPress</span>
                 <span class="tag programming">Backend Dev</span>
                 <span class="tag concept-development">Concept Development</span>
+                <span class="tag database">MySQL</span>
             </div>
             <a href="http://jespernpedersen.dk/tag-water" target="_blank" title="Preview Tag Water" class="portfolio-btn">View website</a>
         </article>
@@ -147,6 +150,7 @@ get_header();
                 <span class="tag ux-ui">UX/UI Design</span>
                 <span class="tag wordpress">WordPress</span>
                 <span class="tag programming">Backend Dev</span>
+                <span class="tag database">MySQL</span>
             </div>
             <a href="http://rla.jespernpedersen.dk/" target="_blank" title="Preview RLA" class="portfolio-btn">View website</a>
         </article>

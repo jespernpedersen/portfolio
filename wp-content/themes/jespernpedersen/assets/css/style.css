@@ -514,6 +514,10 @@ Main
         background-color: #ff8fee;
     }
     
+    .project-tags span.tag.database {
+        background-color: #0a688f;
+    }
+    
     .card-carousel .my-card.active .project-tags {
         top: 38px;
         transition-delay: 0.6s;
@@ -871,7 +875,7 @@ Main
     }
     
     body.picture-active:before {
-        background-color: rgba(0, 0, 0, 0.9);
+        background-color: rgba(0, 0, 0, 0.95);
         content: "";
         height: 100%;
         position: fixed;
@@ -903,7 +907,8 @@ Main
         overflow: hidden;
     }
     
-    .close-modal {
+    .close-modal,
+    #nav-close-icon {
         background-image: url(../images/close-icon.png);
         background-repeat: no-repeat;
         background-size: 100% auto;
@@ -917,7 +922,12 @@ Main
         transition: 0.3s ease-in-out;
     }
     
-    .picture-active .close-modal {
+    .offcanvas-active #nav-close-icon {
+        top: 20px;
+    }
+    
+    .picture-active .close-modal,
+    .offcanvas-active #nav-close-icon {
         opacity: 1;
         pointer-events: all;
         cursor: pointer;

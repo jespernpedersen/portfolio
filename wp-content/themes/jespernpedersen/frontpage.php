@@ -8,7 +8,7 @@ Template Post Type: post, page, event
 get_header();
 ?>
 
-<main role="main">
+<main role="main" id="frontpage">
 
     <section id="portfolio-slider">
         <article id="profile" itemscope itemtype="http://schema.org/Person">
@@ -192,7 +192,7 @@ get_header();
                                 <span class="tag business">Business Planning</span>
                                 <span class="tag programming">Backend Dev</span>
                                 <span class="tag concept-development">Concept Development</span>
-                                
+                                <span class="tag database">MySQL</span>
                                 <span class="tag project-management">Project Management</span>
                             </div>
                             <img src="/portfolio-v3/wp-content/uploads/2018/12/Tag-Water-Desktop.png" alt="Desktop">

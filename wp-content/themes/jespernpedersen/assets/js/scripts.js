@@ -12,3 +12,11 @@ $('.close-modal').click(function(e) {
     $('body').removeClass("picture-active");
     $('body').addClass("not-active");
 });
+
+$('.responsive-menu img').click(function(e) {
+    $('body').addClass("offcanvas-active");
+});
+
+$('#nav-close-icon').click(function(e) {
+    $('body').removeClass("offcanvas-active");
+});
