@@ -79,6 +79,8 @@ get_header();
                 <span class="tag programming">Backend Dev</span>
                 <span class="tag unity">Unity</span>
             </div>
+
+        <div class="icon-scroll"></div>
     </section>
     <section id="me">
         <img src="/portfolio-v3/wp-content/uploads/2018/12/10864522_10202163292842659_1510925993_o.jpg" alt="A picture of Jesper" />
