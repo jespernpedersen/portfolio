@@ -13,6 +13,29 @@ get_header();
     <section class="showcase ecclesia">
         <article class="content">
             <h3>Featured</h3>
+            <h2>Freelance</h2>
+            <p>This website has been developed in the framework of Bulma, in which it has been modified and processed by the tool Prepros. With Bulma, I have imported individual parts of the framework instead of all of it to better manage what is being used and what is not. </p>
+
+            <p>This website is to be used as a contact and information page for people who would like to hire and see what services I offer.</p>
+                          
+            <div class="project-tags">
+                <h4>In this project I've contributed and worked with:</h4>
+                <span class="tag bulma">Bulma</span>
+                <span class="tag frontend">Frontend Dev</span>
+                <span class="tag javascript">JavaScript</span>
+                <span class="tag project-management">Project Management</span>
+            </div>
+            <a href="http://salg.jespernpedersen.dk" target="_blank" title="Preview Freelance" class="portfolio-btn">View website</a>
+        </article>
+        <div class="image-wrapper">
+            <img src="/portfolio-v3/wp-content/uploads/2018/12/Ecclesia-Showcase.png" alt="Ecclesia Case" />
+        </div>
+    </section>
+    
+    <!--
+    <section class="showcase ecclesia">
+        <article class="content">
+            <h3>Featured</h3>
             <h2>Ecclesia</h2>
             <p>Ecclesia is one of my most passionate and also most ambitious project I've ever cast myself out into.</p>
             <p>It is built on top of Node.js, Express, WebSocket Gateway and works as a real-time chat-application and social media. Its purpose was to create a middle way<br />
@@ -37,7 +60,9 @@ get_header();
             <img src="/portfolio-v3/wp-content/uploads/2018/12/Ecclesia-Showcase.png" alt="Ecclesia Case" />
         </figure>
     </section>
-    
+
+    -->
+
     <section class="showcase">
         <article class="content">
             <h3>Website</h3>

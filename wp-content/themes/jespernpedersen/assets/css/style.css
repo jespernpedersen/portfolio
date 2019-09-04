@@ -55,12 +55,20 @@ Typography - Font Displays
         font-family: 'Quicksand', sans-serif;
     }
     
+    p,
     h1,
     h2,
     h3,
     h4,
     h5,
-    h6 {
+    h6,
+    footer,
+    #profile h4 {
+        font-weight: 300;
+    }
+    
+    #profile h4 {
+        font-family: 'Quicksand', sans-serif;
         font-weight: 300;
     }
     /* 
@@ -342,7 +350,6 @@ Main
         order: 1;
         margin-bottom: 30px;
         font-size: 13px;
-        font-weight: 500;
     }
     
     #social-media {
@@ -468,6 +475,10 @@ Main
         font-size: 11px;
         display: inline-block;
         cursor: default;
+    }
+    
+    .project-tags span.tag.bulma {
+        background-color: #00d1b2;
     }
     
     .project-tags span.tag.frontend {
@@ -746,6 +757,7 @@ Main
         padding-bottom: 10px;
     }
     
+    section.showcase .image-wrapper,
     section.showcase figure {
         position: relative;
     }
@@ -840,6 +852,7 @@ Main
         background-color: #61af64;
     }
     
+    section.showcase .image-wrapper,
     section.showcase figure {
         display: flex;
         align-items: center;
@@ -858,6 +871,7 @@ Main
         flex-direction: column;
     }
     
+    section.showcase .image-wrapper img,
     section.showcase figure img {
         width: 500px;
         max-width: 100%;
@@ -865,6 +879,7 @@ Main
         cursor: pointer;
     }
     
+    main#cases section.showcase:first-child .image-wrapper img,
     main#cases section.showcase:first-child figure img {
         width: 800px;
         max-width: 100%;
