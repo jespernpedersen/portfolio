@@ -6,9 +6,16 @@ $('body.not-active .showcase figure').click(function(e) {
     $('body').removeClass("not-active");
 });
 
+$('body.not-active .showcase .image-wrapper img').click(function(e) {
+    $(this).addClass("active");
+    $('body').addClass("picture-active");
+    $('body').removeClass("not-active");
+});
+
 
 $('.close-modal').click(function(e) {
     $('.showcase figure').removeClass("active");
+    $('.showcase .image-wrapper img').removeClass("active");
     $('body').removeClass("picture-active");
     $('body').addClass("not-active");
 });

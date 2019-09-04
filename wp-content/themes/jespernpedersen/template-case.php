@@ -28,7 +28,8 @@ get_header();
             <a href="http://salg.jespernpedersen.dk" target="_blank" title="Preview Freelance" class="portfolio-btn">View website</a>
         </article>
         <div class="image-wrapper">
-            <img src="/portfolio-v3/wp-content/uploads/2018/12/Ecclesia-Showcase.png" alt="Ecclesia Case" />
+            <img src="/wp-content/uploads/2019/09/freelance-wp-devices.png" alt="Freelance Case" />
+            <img src="/wp-content/uploads/2019/09/process-2.png" alt="Processen" />
         </div>
     </section>
     
@@ -193,6 +194,6 @@ get_header();
         integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" 
         crossorigin="anonymous">
 </script> 
-<script src="/portfolio-v3/wp-content/themes/jespernpedersen/assets/js/scripts.js"></script>
+<script src="/wp-content/themes/jespernpedersen/assets/js/scripts.js"></script>
 <?php
 get_footer();

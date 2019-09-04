@@ -762,6 +762,7 @@ Main
         position: relative;
     }
     
+    section.showcase .image-wrapper:after,
     section.showcase figure:after {
         content: "";
         background-image: url('../images/zoom.png');
@@ -776,9 +777,7 @@ Main
         pointer-events: none;
     }
     
-    section.showcase:first-child figure:after {
-        display: none;
-    }
+    section.showcase:first-child figure:after {}
     
     section.showcase p {
         margin-top: 15px;
@@ -902,6 +901,7 @@ Main
         opacity: 1;
     }
     
+    main#cases section.showcase .image-wrapper img.active,
     main#cases section.showcase:first-child figure.active img,
     section.showcase figure.active img {
         position: fixed;
